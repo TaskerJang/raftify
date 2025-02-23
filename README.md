@@ -9,12 +9,12 @@
 - **Masters**: 2024.8.10 - 2024.11.2
 
 ## 💻 기술 스택
-- **언어**: Rust
-- **스토리지**: RocksDB
-- **통신**: gRPC
-- **웹 프레임워크**: Actix-web
-- **직렬화**: Protobuf, Serde
-
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![RocksDB](https://img.shields.io/badge/RocksDB-2C2C2C?style=for-the-badge&logo=rocksdb&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=for-the-badge&logo=grpc&logoColor=white)
+![Actix](https://img.shields.io/badge/Actix-117777?style=for-the-badge&logo=rust&logoColor=white)
+![Protobuf](https://img.shields.io/badge/Protobuf-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Serde](https://img.shields.io/badge/Serde-000000?style=for-the-badge&logo=rust&logoColor=white)
 ## 🔧 구현 내용
 
 ### 1. Raft 알고리즘 구현
