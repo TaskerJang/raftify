@@ -121,18 +121,36 @@ src/
 
 ## 📚 기술 문서
 
-### RocksDB 관련
-- [Write Ahead Logging](https://velog.io/@tasker_dev/Write-Ahead-Logging)
-- [MemTable 구조](https://velog.io/@tasker_dev/MemTable)
-- [SST Files](https://velog.io/@tasker_dev/SST-Files)
-- [Compaction](https://velog.io/@tasker_dev/Compaction)
-- [Bloom Filter](https://velog.io/@tasker_dev/Bloom-Filter)
-- [Transaction Log](https://velog.io/@tasker_dev/11.-Transaction-Log)
+### Raft 알고리즘 시리즈
+1. [Raft 알고리즘 배경 지식과 핵심 개념](https://velog.io/@tasker_dev/1.-러스트에-들어가기-앞서-배경지식)
+2. [In Search of an Understandable Consensus Algorithm](https://velog.io/@tasker_dev/In-Search-of-an-Understandable-Consensus-Algorithm)
+3. [Raft 코드 분석 1편](https://velog.io/@tasker_dev/Raft-코드-뜯어보기)
+4. [Raft 코드 분석 2편](https://velog.io/@tasker_dev/Raft-코드-뜯어보기-2)
+5. [Raft 코드 분석 3편](https://velog.io/@tasker_dev/Raft-코드-뜯어보기-3)
+6. [Raft 코드 분석 4편](https://velog.io/@tasker_dev/Raft-코드-뜯어보기-4)
 
-### Raft 알고리즘
-- [Raft 배경 지식](https://velog.io/@tasker_dev/1.-러스트에-들어가기-앞서-배경지식)
-- [합의 알고리즘 이해](https://velog.io/@tasker_dev/In-Search-of-an-Understandable-Consensus-Algorithm)
-- [코드 분석](https://velog.io/@tasker_dev/Raft-코드-뜯어보기)
+### RocksDB 학습 시리즈
+1. [RocksDB 소개](https://velog.io/@tasker_dev/Rocks-DB에-대해-알아보자)
+2. [스토리지 구현 1편](https://velog.io/@tasker_dev/Rocks-DB-스토리지-구현-1)
+3. [스토리지 구현 2편](https://velog.io/@tasker_dev/Rocks-DB-스토리지-구현-2-rh24xx3m)
+4. [스토리지 구현 4편](https://velog.io/@tasker_dev/Rocks-DB-스토리지-구현-4)
+5. [스토리지 구현 5편](https://velog.io/@tasker_dev/Rocks-DB-스토리지-구현-5)
+
+### RocksDB 핵심 개념
+1. [Write Ahead Logging](https://velog.io/@tasker_dev/Write-Ahead-Logging)
+2. [MemTable](https://velog.io/@tasker_dev/MemTable)
+3. [SST Files](https://velog.io/@tasker_dev/SST-Files)
+4. [Compaction](https://velog.io/@tasker_dev/Compaction)
+5. [Bloom Filter](https://velog.io/@tasker_dev/Bloom-Filter)
+6. [Transaction Log](https://velog.io/@tasker_dev/11.-Transaction-Log)
+7. [Block Cache](https://velog.io/@tasker_dev/Block-Cache)
+8. [Merge Operators](https://velog.io/@tasker_dev/9.-Merge-Operators)
+9. [Iterators](https://velog.io/@tasker_dev/10.-Iterators)
+10. [Statistics](https://velog.io/@tasker_dev/12.-statistics)
+11. [Adaptive Mutex](https://velog.io/@tasker_dev/13.-Adaptive-Mutex)
+
+### API 개선
+- [Raft 기반 시스템의 HTTP 메서드 선택](https://velog.io/@tasker_dev/Raft-기반-시스템에서-올바른-HTTP-메서드-선택과-API-개선-방법)
 
 ## 🎉 프로젝트 성과
 
@@ -146,12 +164,25 @@ src/
    - RESTful 원칙 준수
    - API 일관성 향상
 
-## 🔜 향후 계획
-- Java 기반 프로젝트 참여
-- Raftify 지속적 개선
-- 성능 최적화 작업
 
-## 📝 참고 자료
-- [RocksDB 공식 문서](https://rocksdb.org)
-- [Raft 논문](https://raft.github.io)
-- [프로젝트 블로그](https://velog.io/@tasker_dev)
+## 📖 전체 활동 후기
+[2024 오픈소스 컨트리뷰션 아카데미 참가 후기](https://velog.io/@tasker_dev/2024-오픈소스-컨트리뷰션)를 통해 13주간의 여정을 자세히 확인하실 수 있습니다.
+
+## 🔗 참고 자료
+- [Raft 논문](https://raft.github.io/)
+- [RocksDB 공식 문서](https://rocksdb.org/)
+- [Rust 공식 문서](https://www.rust-lang.org/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
