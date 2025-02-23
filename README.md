@@ -10,6 +10,7 @@
 
 ## 💻 기술 스택
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![Raftify](https://img.shields.io/badge/Raftify-E6484F?style=for-the-badge&logo=rust&logoColor=white)
 ![RocksDB](https://img.shields.io/badge/RocksDB-2C2C2C?style=for-the-badge&logo=rocksdb&logoColor=white)
 ![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=for-the-badge&logo=grpc&logoColor=white)
 ![Actix](https://img.shields.io/badge/Actix-117777?style=for-the-badge&logo=rust&logoColor=white)
