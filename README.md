@@ -120,9 +120,12 @@ src/
 └── api/                    # HTTP API 레이어
 ```
 
+
 ## 📚 기술 문서
 
-### Raft 알고리즘 시리즈
+<details>
+<summary><b>Raft 알고리즘 시리즈</b></summary>
+
 1. [Raft 알고리즘 배경 지식과 핵심 개념](https://velog.io/@tasker_dev/1.-러스트에-들어가기-앞서-배경지식)
 2. [In Search of an Understandable Consensus Algorithm](https://velog.io/@tasker_dev/In-Search-of-an-Understandable-Consensus-Algorithm)
 3. [Raft 코드 분석 1편](https://velog.io/@tasker_dev/Raft-코드-뜯어보기)
@@ -130,14 +133,22 @@ src/
 5. [Raft 코드 분석 3편](https://velog.io/@tasker_dev/Raft-코드-뜯어보기-3)
 6. [Raft 코드 분석 4편](https://velog.io/@tasker_dev/Raft-코드-뜯어보기-4)
 
-### RocksDB 학습 시리즈
+</details>
+
+<details>
+<summary><b>RocksDB 학습 시리즈</b></summary>
+
 1. [RocksDB 소개](https://velog.io/@tasker_dev/Rocks-DB에-대해-알아보자)
 2. [스토리지 구현 1편](https://velog.io/@tasker_dev/Rocks-DB-스토리지-구현-1)
 3. [스토리지 구현 2편](https://velog.io/@tasker_dev/Rocks-DB-스토리지-구현-2-rh24xx3m)
 4. [스토리지 구현 4편](https://velog.io/@tasker_dev/Rocks-DB-스토리지-구현-4)
 5. [스토리지 구현 5편](https://velog.io/@tasker_dev/Rocks-DB-스토리지-구현-5)
 
-### RocksDB 핵심 개념
+</details>
+
+<details>
+<summary><b>RocksDB 핵심 개념</b></summary>
+
 1. [Write Ahead Logging](https://velog.io/@tasker_dev/Write-Ahead-Logging)
 2. [MemTable](https://velog.io/@tasker_dev/MemTable)
 3. [SST Files](https://velog.io/@tasker_dev/SST-Files)
@@ -150,30 +161,80 @@ src/
 10. [Statistics](https://velog.io/@tasker_dev/12.-statistics)
 11. [Adaptive Mutex](https://velog.io/@tasker_dev/13.-Adaptive-Mutex)
 
-### API 개선
+</details>
+
+<details>
+<summary><b>API 개선</b></summary>
+
 - [Raft 기반 시스템의 HTTP 메서드 선택](https://velog.io/@tasker_dev/Raft-기반-시스템에서-올바른-HTTP-메서드-선택과-API-개선-방법)
+
+</details>
 
 ## 🎉 프로젝트 성과
 
-### Pull Requests
-1. [#124 RocksDB 스토리지 구현](https://github.com/lablup/raftify/pull/124)
-   - RocksDB 백엔드 통합
-   - 성능 최적화
-   - 테스트 케이스 구현
+<div align="center">
+  
+### 🚀 Pull Requests
 
-2. [#147 HTTP API 개선](https://github.com/lablup/raftify/pull/147)
-   - RESTful 원칙 준수
-   - API 일관성 향상
+</div>
 
+<table>
+<tr>
+<td width="100%">
+<div align="center">
+  
+[![PR](https://img.shields.io/badge/PR-124-brightgreen?style=for-the-badge&logo=github)](https://github.com/lablup/raftify/pull/124)
+
+</div>
+
+### 📦 RocksDB 스토리지 구현
+
+> RocksDB를 Raftify의 백엔드 스토리지로 통합하고 성능을 최적화했습니다.
+
+**주요 구현 사항**
+- ✨ RocksDB 백엔드 통합
+- 🚀 성능 최적화
+- ✅ 테스트 케이스 구현
+</td>
+</tr>
+<tr>
+<td width="100%">
+<div align="center">
+  
+[![PR](https://img.shields.io/badge/PR-147-brightgreen?style=for-the-badge&logo=github)](https://github.com/lablup/raftify/pull/147)
+
+</div>
+
+### 🔄 HTTP API 개선
+
+> RESTful 원칙을 준수하여 API의 일관성과 사용성을 향상시켰습니다.
+
+**주요 개선 사항**
+- 📝 RESTful 원칙 준수
+- ⚡ API 일관성 향상
+</td>
+</tr>
+</table>
 
 ## 📖 전체 활동 후기
-[2024 오픈소스 컨트리뷰션 아카데미 참가 후기](https://velog.io/@tasker_dev/2024-오픈소스-컨트리뷰션)를 통해 13주간의 여정을 자세히 확인하실 수 있습니다.
+
+<div align="center">
+  
+[![Velog](https://img.shields.io/badge/Velog-2024_오픈소스_컨트리뷰션-20C997?style=for-the-badge&logo=velog&logoColor=white)](https://velog.io/@tasker_dev/2024-오픈소스-컨트리뷰션)
+
+**13주간의 열정적인 오픈소스 여정을 기술 블로그에서 확인해보세요!**
+
+</div>
 
 ## 🔗 참고 자료
-- [Raft 논문](https://raft.github.io/)
-- [RocksDB 공식 문서](https://rocksdb.org/)
-- [Rust 공식 문서](https://www.rust-lang.org/)
 
+<table>
+<tr>
+<td><a href="https://raft.github.io/">📑 Raft 논문</a></td>
+<td><a href="https://rocksdb.org/">📚 RocksDB 공식 문서</a></td>
+<td><a href="https://www.rust-lang.org/">🦀 Rust 공식 문서</a></td>
+</tr>
+</table>
 
 
 
